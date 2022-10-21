@@ -1,0 +1,43 @@
+selcet * from ....
+
+einfügen:
+insert into ("1", "2", ...)
+values ("1", "2", ...)
+
+filtern:
+..  by ...asc
+
+zb
+selcet * from customers Where city= "berlin "
+
+selcet * from customers Where city in ("berlin ", "Madrid")
+
+selcet * from customers Where contactName LIKE "m%"
+
+tabelle verbinden:
+zb
+
+SELECT * FROM orders
+left join customers 
+on Orders.CustomerID = Customers.CustomerID	
+
+speichern 
+
+select .... from ...
+
+tabellle einfügen:
+
+create tabele ..... As
+
+tabelle löschen 
+
+drop  table .....
+
+
+Update:
+
+Update employees 
+set Lastname ".."
+where EmployeeID="..."
+
+
